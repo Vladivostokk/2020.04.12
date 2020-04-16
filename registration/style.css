@@ -1,0 +1,118 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/25/12/48/turquoise-1540436_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.sign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #0e7575;
+    width: 370px;
+    min-height: 650px;
+    box-shadow: #171a19 5px 15px 25px;
+    border-radius: 5px;
+}
+
+
+h2,h5 {
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 25px;
+    color: #f7f7f7;
+    cursor: default;
+}
+h5 {
+    margin-bottom: 30px;
+    color: #44ebcf;
+    cursor: default;
+}
+
+label,input {
+    display: block;
+}
+
+label {
+    margin: 15px 35px 5px;
+    color: #f7f7f7;
+    font-size: 18px;
+}
+
+input {
+    margin: 5px auto;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    background: #ebe8e8;
+    border: 0;
+    border: 1px solid #434949;
+    border-radius: 5px;
+    box-shadow: #0c5166 2px 2px 15px 2px ;
+}
+
+input[type="checkbox"] {
+    box-shadow: none;
+}
+
+input:hover {
+    background-color: #fffbfb;
+    transition: 300ms ease;
+}
+
+input:focus {
+    background-color: #fcf7f7;
+}
+
+input[type="submit"] {
+    background-color: #12c27f;
+    width: 230px;
+    border: 1px solid #0e9763;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: #f1ebeb;
+    margin: 15px auto;
+    transform: scale(1);
+    box-shadow: none;
+}
+
+form a{
+    color: #c5cece;
+    margin: 0 110px;
+    font-size: 15px;
+}
+
+form a:hover {
+    color: #fffbfb;
+    transition: 350ms ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #108156;
+    box-shadow: inset 0 2px 15px #104617 ;
+    transition: 350ms ease-out;
+    transform: scale(0.93);
+}
+
+input[type="checkbox"] {
+    margin-top: 15px;
+    position: absolute;
+    right: 180px;
+    bottom: 142px;
+}
+
+p {
+    color: #ebe8e8;
+    font-size: 16px;
+    margin: 15px 55px;
+}
